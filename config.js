@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/clwj9hw5f00jw01qxhijy3f9f",
+  style: "mapbox://styles/daltonwb/cm0cifj82010u01qv2is908pa",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -9,61 +9,22 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List identifying where the EU and its member states can enhance prospects for peace. This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, Philippine-Chinese frictions in the South China Sea and Hizbollah-Israel tensions.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024 – 2025</h1><p class="hedp">Lorem ipsum dolor amet. Intro text goes here.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez-Lucena <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: "INTRO",
-      alignment: "center",
-      hidden: false,
-      title: "INTRODUCTION",
-      image: "",
-      description:
-        "With just two weeks until voters go to the polls, all eyes in Brussels are on the European Parliament elections. The results will shape the EU’s overall political direction in the years ahead. The stakes seem especially high in 2024 with wars and crises in the bloc’s eastern and southern neighbourhoods. Moreover, far-right parties are on the rise, seeking to make Europe more inward-looking. Moving in this direction would be to Europe’s detriment, however. To expand its geopolitical reach and build a safer Europe, the EU will need to invest in the tools that keep war and humanitarian catastrophe at bay both on Europe’s borders and farther afield." + '<br /><br /><a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#intro" target="_blank">&#8594; [Read more]</a>' + "<br /><br />" +
-        "<strong>Scroll down to continue. &#8595;</strong>",
-      location: {
-        center: [-35.07977, 21.55533],
-        zoom: 2.25,
-        pitch: 16,
-        bearing: 7.2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: true,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "ISR",
       alignment: "left",
       hidden: false,
-      title: "HIZBOLLAH/ISRAEL",
+      title: "Supporting UN operations in Gaza and the region",
       image: "",
       description:
-        "The EU and member states should:<ul><li>Better use its leverage to press for permanent ceasefire in Gaza and the release of all hostages there; </li><li>Support French and U.S. mediation efforts in South Lebanon;</li><liPress Israel to pursue security through diplomatic means;</li><li>Prepare material aid for Lebanon-Israel border security and step up support to UNIFIL;</li><li>Prepare for potential humanitarian fallout and displacement an escalation might cause.</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+        "The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>provides the main logistics hub for aid into Gaza</a>. Israel has shuttered many of the border crossings into Gaza, and humanitarians have only used the Kerem Shalom and Gate 96 border crossings since the end of July." + "<div class='spacer'></div>" + "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." + '<br /><br /><a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#intro" target="_blank">&#8594; [Read more]</a>' + "<br /><br />" +
+        "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
         center: [35.08351, 32.23019],
         zoom: 7.5,
@@ -77,205 +38,49 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "roadDraw",
+      callback: "",
       onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "ISRAEL",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "LEBANON",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "LEBANON copy",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "beirut",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "beirut_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "tel-aviv",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "tel-aviv_label",
-          duration: 2000,
-          opacity: 0.8,
-        },
-        {
-          layer: "damascus",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "damascus_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "gaza_strip",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "west_bank",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "israel-fill",
-          duration: 2000,
-          opacity: 0.7,
-        },
-        {
-          layer: "palestine",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "golan_heights",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "golan-label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "SUDAN",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "sudan-fill",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "el-fasher",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "el-fasher_label",
-          duration: 2000,
-          opacity: 0,
-        },
+        
       ],
       onChapterExit: [
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "ISRAEL",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "LEBANON",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "LEBANON copy",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "beirut",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "beirut_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tel-aviv",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tel-aviv_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "damascus",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "damascus_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "gaza_strip",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "west_bank",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "israel-fill",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "golan_heights",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "golan-label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "palestine",
-          duration: 2000,
-          opacity: 0,
-        },
+       
       ],
     },
     {
-      id: "SUDAN-1",
+      id: "SUDAN",
       alignment: "left",
       hidden: false,
-      title: "SUDAN",
+      title: "Marshalling international diplomacy for Sudan",
       image: "",
       description:
-        "The EU and member states should:<ul><li>Support the Jeddah ceasefire talks;</li><li>Help align peace efforts of regional and international key players;</li><li>Continue to convene Sudanese political and civil figures, in an effort to support a future political process;</li><li>Fulfil humanitarian aid pledges and help ensure unhindered access to all Sudanese; </li><li>Keep Sudan high on the agenda.</li></ul>" +
+        "The Secretary-General's Personal Envoy Ramtane Lamamra convened the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) representatives for proximity talks on humanitarian issues in Geneva in July. This helped pave the way for an agreement with the SAF and RSF one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [27.75505, 15.19553],
+        zoom: 5,
+        pitch: 16,
+        bearing: 7.2,
+        speed: 0.6,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "roadDraw",
+      onChapterEnter: [
+       
+      ],
+      onChapterExit: [
+        
+      ],
+    },
+    {
+      id: "MYANMAR",
+      alignment: "left",
+      hidden: false,
+      title: "Resetting UN engagement in Myanmar",
+      image: "",
+      description:
+        "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should seize the moment to strengthen its ability to deliver aid to vulnerable populations in the country and bolster its diplomatic efforts in the region." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -289,306 +94,19 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "SUDAN",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "el-fasher",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "el-fasher_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "sudan-fill",
-          duration: 2000,
-          opacity: 0.7,
-        },
-      ],
-      onChapterExit: [],
-    },
-    {
-      id: "SUDAN-2",
-      alignment: "full",
-      hidden: false,
-      title: "",
-      image: "images/sudan.jpg",
-      description: "<br /><br /><br />",
-      location: {
-        center: [27.75505, 15.19553],
-        zoom: 5,
-        pitch: 16,
-        bearing: 7.2,
-        speed: 0.6,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "SUDAN",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "sudan-fill",
-          duration: 2000,
-          opacity: 0.7,
-        },
-        {
-          layer: "el-fasher",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "el-fasher_label",
-          duration: 2000,
-          opacity: 1,
-        },
+      
       ],
       onChapterExit: [
-        {
-          layer: "SUDAN",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "sudan-fill",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "el-fasher",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "el-fasher_label",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "PHP",
-      alignment: "left",
-      hidden: false,
-      title: "PHILIPPINES/SOUTH CHINA SEA",
-      image: "",
-      description:
-        "The EU and member states should:<ul><li>Seek diplomatic engagement with Beijing and Manila to keep tensions in check and expand diplomatic presence in South East Asia;</li><li>Promote respect for international maritime law as a source of neutral rules for dispute resolution and conflict prevention;</li><li>Strengthen cooperation with Philippines coast-guard in areas such as environmental protection, safety and search and rescue.</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [115.78357, 10.18953],
-        zoom: 4.45,
-        pitch: 39,
-        bearing: -29.24,
-        speed: 0.4,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "9dashline",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "2024-eu-wl",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "php-fill",
-          duration: 2000,
-          opacity: 0.7,
-        },
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 0.8,
-        },
-        {
-          layer: "bathymetry",
-          duration: 2000,
-          opacity: 0.15,
-        },
-        {
-          layer: "water",
-          duration: 5000,
-          opacity: 0,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "9dashline",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "2024-eu-wl",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "php-fill",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "bathymetry",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "water",
-          duration: 2000,
-          opacity: 1,
-        },
-      ],
-    },
-    {
-      id: "BOS",
-      alignment: "left",
-      hidden: false,
-      title: "BOSNIA AND HERZEGOVINA",
-      image: "",
-      description:
-        "The EU and member states should:<ul><li>Work toward a deal in which Republika Srpska stops trying to run its own elections, the High Representative does not impose punitive measures without consensus support from key governments, and Bosnia enacts a new election law;</li><li>Coordinate with the U.S. and Quint countries to guide the High Representative so that he uses his powers when there is clear consensus that they are needed to prevent damage;</li><li>Help Bosnian leaders settle ownership of state- and military-owned property, the last condition before closing the High Representative’s office;</li><li>Use forthcoming EU membership talks for dialogue about re-evaluating the Dayton accords framework;</li><li>Make clear that secession would compromise EU accession.</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [17.30775, 44.12183],
-        zoom: 7,
-        pitch: 32.5,
-        bearing: 30,
-        speed: 0.4,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "banja_luka_dot",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "bos-herz",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "banja_luka",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "city_dot_sarajevo",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "sarajevo",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "bosnia-fill",
-          duration: 2000,
-          opacity: 0.7,
-        },
-        {
-          layer: "republika_Srpska",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "banja_luka_dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "bos-herz",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "banja_luka",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "city_dot_sarajevo",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "sarajevo",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "bosnia-fill",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "republika_Srpska",
-          duration: 2000,
-          opacity: 0,
-        },
+
       ],
     },
     {
       id: "HAITI",
       alignment: "left",
       hidden: false,
-      title: "HAITI",
+      title: "Surging UN assistance to Haiti",
       image: "",
-      description:
-        "The EU and member states should:<ul><li>Provide support to Kenya-led multinational security mission; </li><li>Impose sanctions on gang sponsors; </li><li>Assist the Haitian state with DDR programs; </li><li>Support the transitional government to rebuild democratic state and convene elections; </li><li>Increase humanitarian aid.</li></ul>" +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#haiti" target="_blank">&#8594; [Read more]</a>',
+      description: "The most pressing question for Haiti revolves around the Multinational Security Support Mission (MSS)’ operational profile, funding and future. Once sufficiently equipped and staffed, police and mission personnel should endeavour to protect the capital’s critical infrastructure and step up operations against gang strongholds, with a view both to tempering the country’s  humanitarian crisis and providing a safe environment to hold elections.",
       location: {
         center: [-72.74457, 18.92369],
         zoom: 8.5,
@@ -600,47 +118,100 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "haiti-label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "pap",
-          duration: 1000,
-          opacity: 1,
-        },
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
+        
       ],
       onChapterExit: [
-        {
-          layer: "haiti-label",
-          duration: 1000,
-          opacity: 0,
-        },
-        {
-          layer: "pap",
-          duration: 4000,
-          opacity: 0,
-        },
+        
       ],
     },
     {
-      id: "HAITI-1",
+      id: "COLOMBIA",
       alignment: "left",
       hidden: false,
-      title: "",
+      title: "Advancing Women's Protection and Participation in Colombia",
       image: "",
-      description: "",
+      description:
+        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the existing 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying historic exclusion of marginalised groups and achieving equitable peace." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [-72.61330, 4.00913],
+        zoom: 5,
+        pitch: 39,
+        bearing: -29.24,
+        speed: 0.4,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        
+      ],
+      onChapterExit: [
+        
+      ],
+    },
+    {
+      id: "AFRICA",
+      alignment: "left",
+      hidden: false,
+      title: "Confronting the future of UN peacekeeping in Africa",
+      image: "",
+      description:
+        "The UN is in the process of shrinking its peacekeeping presence in Africa, which has been the centre of attention for its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grap-pling with the question of how the UN can contribute to stability on the continent in the future, including the role Blue Helmet missions might play or how opera-tional and financial support could be provided to African-led deployments. Map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations, and regional security operations." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [13.43076, 13.66816],
+        zoom: 5,
+        pitch: 32.5,
+        bearing: 30,
+        speed: 0.4,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        
+      ],
+      onChapterExit: [
+   
+      ],
+    },
+    {
+      id: "PEACE2",
+      alignment: "left",
+      hidden: false,
+      title: "Reinforcing the UN Peacebuilding Architecture",
+      image: "",
+      description:
+        "The Peacebuilding Fund, one part of the UN's peacebuilding architecture, has a good reputation for providing limited but speedy financing for local peace talks and bolstering countries’ justice systems. Although the Fund sometimes backs projects in places where the UN already has peace operations, it also funds UN efforts in states – such as Burkina Faso and Papua New Guinea – where the organisation has no political presence. Map shows countries receiving UN peacebuilding fund allocations in 2023 (source: A/78/779)" +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#haiti" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [-28.58292, 10.67017],
+        zoom: 2,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.6,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [
+        
+      ],
+      onChapterExit: [
+
+      ],
+    },
+    {
+      id: "CT",
+      alignment: "full",
+      hidden: false,
+      title: "Renewing Humanitarian Exemptions in UN Counterterrorism Sanctions",
+      image: "",
+      description: "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need.",
       location: {
         center: [-72.283324, 18.581603],
         zoom: 16,
@@ -652,28 +223,21 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
+
       ],
-      onChapterExit: [],
+      onChapterExit: [
+
+      ],
     },
     {
-      id: "HAITI-2",
+      id: "WASHINGTON",
       alignment: "left",
       hidden: false,
-      title: "",
+      title: "Preparing for the next U.S. Administration",
       image: "",
-      description: "",
+      description: "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a new raft of problems, depending on the outcome.  the ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. admin-istrations reassess their global posture, their investment in international organisa-tions is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president.",
       location: {
-        center: [-72.283324, 18.581603],
+        center: [-77.03668, 38.89697],
         zoom: 16.5,
         pitch: 0,
         bearing: 0,
@@ -683,50 +247,22 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "airport-highlight",
-          duration: 5000,
-          opacity: 0.6,
-        },
-        {
-          layer: "haiti-airport",
-          duration: 2000,
-          opacity: 1,
-        },
+        
       ],
       onChapterExit: [
-        {
-          layer: "airport-highlight",
-          duration: 4000,
-          opacity: 0,
-        },
-        {
-          layer: "haiti-airport",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "satellite",
-          duration: 2000,
-          opacity: 0,
-        },
+
       ],
     },
     {
-      id: "END",
-      alignment: "center",
+      id: "UNSG",
+      alignment: "left",
       hidden: false,
-      title: "",
+      title: "Choosing the next Secretary-General",
       image: "",
-      description: "",
+      description: "The race to replace António Guterres as UN secretary-general will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake out their claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade.",
       location: {
-        center: [-35.07977, 21.55533],
-        zoom: 2.25,
+        center: [-73.96749, 40.74993],
+        zoom: 17,
         pitch: 16,
         bearing: 7.2,
         speed: 0.4,
@@ -735,18 +271,10 @@ var config = {
       rotateAnimation: true,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 1,
-        },
+
       ],
       onChapterExit: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
+
       ],
     },
   ],
