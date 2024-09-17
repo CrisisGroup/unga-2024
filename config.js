@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm0cifj82010u01qv2is908pa",
+  style: "mapbox://styles/daltonwb/cm16gflz9002t01qk1gah646m",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024 – 2025</h1><p class="hedp">Lorem ipsum dolor amet. Intro text goes here.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024–2025</h1><p class="hedp">Lorem ipsum dolor amet. Intro text goes here.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -20,21 +20,17 @@ var config = {
       id: "INTRO",
       alignment: "left",
       hidden: false,
-      title: "Supporting UN operations in Gaza and the region",
+      title: "Supporting UN Operations in Gaza and the Region",
       image: "",
       description:
-        "The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>provides the main logistics hub for aid into Gaza</a>. Israel has shuttered many of the border crossings into Gaza, and humanitarians have only used the Kerem Shalom and Gate 96 border crossings since the end of July." + "<div class='spacer'></div>" + "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." + '<br /><br /><a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#intro" target="_blank">&#8594; [Read more]</a>' + "<br /><br />" +
+        "The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the border crossings into Gaza, and humanitarians have only used the Kerem Shalom and Gate 96 border crossings since the end of July." + "<div class='spacer'></div>" + "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." + '<br /><br /><a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120464" target="_blank">&#8594; [Read more]</a>' + "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
-        center: [35.08351, 32.23019],
-        zoom: 7.5,
-        pitch: 0,
+        center: [34.31234, 31.37974],
+        zoom: 10.5,
+        pitch: 32.50,
         bearing: 0,
         speed: 0.7,
-        bbox: [
-          [28.06034, 29.49946],
-          [42.2118, 34.85895],
-        ],
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -50,12 +46,12 @@ var config = {
       id: "SUDAN",
       alignment: "left",
       hidden: false,
-      title: "Marshalling international diplomacy for Sudan",
+      title: "Marshalling International Diplomacy for Sudan",
       image: "",
       description:
         "The Secretary-General's Personal Envoy Ramtane Lamamra convened the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) representatives for proximity talks on humanitarian issues in Geneva in July. This helped pave the way for an agreement with the SAF and RSF one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -65,7 +61,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "roadDraw",
+      callback: "",
       onChapterEnter: [
        
       ],
@@ -183,7 +179,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Reinforcing the UN Peacebuilding Architecture",
-      image: "",
+      image: "images/terror_aid.jpg",
       description:
         "The Peacebuilding Fund, one part of the UN's peacebuilding architecture, has a good reputation for providing limited but speedy financing for local peace talks and bolstering countries’ justice systems. Although the Fund sometimes backs projects in places where the UN already has peace operations, it also funds UN efforts in states – such as Burkina Faso and Papua New Guinea – where the organisation has no political presence. Map shows countries receiving UN peacebuilding fund allocations in 2023 (source: A/78/779)" +
         '<div class="spacer"></div>' +
