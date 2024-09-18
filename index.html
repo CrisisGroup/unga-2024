@@ -97,8 +97,9 @@
 	<div id='isrlegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div><span style='background-color: #a4353b; border: solid 1px #fff;'></span>Most active strike area
-					between Israel and Hizbollah
+				<div><span style='background-color: #6399ae; border: solid 1px #cddee5;'></span>Open crossings
+				</div>
+				<div><span style='background-color: #a4343a; border: solid 1px #db9a9d;'></span>Closed crossings
 				</div>
 			</li>
 		</ul>
@@ -308,7 +309,7 @@
 
 		map.addControl(new mapboxgl.AttributionControl({
 			compact: true,
-			customAttribution: 'Data: Crisis Group research, OSM, Copernicus. | Map by Paul Franz and Claire Boccon-Gibod'
+			customAttribution: 'Data: Crisis Group research, OSM. | Map by <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a> and Claire Boccon-Gibod'
 		}));
 
 		// Create a inset map if enabled in config.js
@@ -858,7 +859,7 @@
 					var chapter = config.chapters.find(chap => chap.id === response.element.id);
 					var chapterid = chapter.id;
 
-					if (chapterid == "ISR") {
+					if (chapterid == "INTRO") {
 						$("#isrlegend").show("slow");
 					} else
 						$("#isrlegend").hide("fast");
