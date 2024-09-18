@@ -195,7 +195,7 @@ var config = {
       alignment: "center",
       hidden: false,
       title: "Advancing Women's Protection and Participation in Colombia",
-      image: "",
+      image: "images/colombia.jpg",
       description:
         "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the existing 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying historic exclusion of marginalised groups and achieving equitable peace." +
         '<div class="spacer"></div>' +
@@ -220,7 +220,7 @@ var config = {
       title: "Confronting the future of UN peacekeeping in Africa",
       image: "",
       description:
-        "The UN is in the process of shrinking its peacekeeping presence in Africa, which has been the centre of attention for its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including the role Blue Helmet missions might play or how opera-tional and financial support could be provided to African-led deployments. This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations, and regional security operations." +
+        "The UN is in the process of shrinking its peacekeeping presence in Africa, which has been the centre of attention for its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including the role Blue Helmet missions might play or how operational and financial support could be provided to African-led deployments." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations, and regional security operations." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
       location: {
