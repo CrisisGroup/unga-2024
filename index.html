@@ -1045,7 +1045,7 @@
 			map.once('moveend', () => {
 				const rotateNumber = map.getBearing();
 				map.rotateTo(rotateNumber + 180, {
-					duration: 50000, easing: function (t) {
+					duration: 100000, easing: function (t) {
 						return t;
 					}
 				});

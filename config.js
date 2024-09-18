@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez-Lucena <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod,Jorge Gutierrez-Lucena and Emma Eva Schut <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: "INTRO",
@@ -324,14 +324,14 @@ var config = {
       callback: "rotateData",
       onChapterEnter: [
         {
-          layer: "nyc",
-          duration: 2000,
-          opacity: .6,
-        },
-        {
           layer: "WHITE_HOUSE",
           duration: 2000,
           opacity: 1,
+        },
+        {
+          layer: "nyc",
+          duration: 2000,
+          opacity: 0,
         }
       ],
       onChapterExit: [
@@ -351,10 +351,10 @@ var config = {
       description:
         "The race to replace António Guterres as UN secretary-general will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake out their claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade.",
       location: {
-        center: [-73.96749, 40.74993],
-        zoom: 17,
-        pitch: 55,
-        bearing: 24,
+        center: [-73.96756, 40.75006],
+        zoom: 16,
+        pitch: 62,
+        bearing: -44,
         speed: 0.4,
       },
       mapAnimation: "flyTo",
@@ -362,22 +362,17 @@ var config = {
       callback: "rotateData",
       onChapterEnter: [
         {
-          layer: "nyc",
-          duration: 2000,
-          opacity: .6,
-        },
-        {
           layer: "UN_BUILDING",
           duration: 2000,
           opacity: 1,
-        }
-      ],
-      onChapterExit: [
+        },
         {
           layer: "nyc",
           duration: 2000,
           opacity: 0,
-        },
+        }
+      ],
+      onChapterExit: [
         {
           layer: "UN_BUILDING",
           duration: 2000,
