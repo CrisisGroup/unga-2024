@@ -24,9 +24,6 @@ var config = {
       image: "",
       description:
         "The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the border crossings into Gaza, and humanitarians have only used the Kerem Shalom and Gate 96 border crossings since the end of July." +
-        "<div class='spacer'></div>" +
-        "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." +
-        '<br /><br /><a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120464" target="_blank">&#8594; [Read more]</a>' +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -80,6 +77,11 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        }
       ],
       onChapterExit: [
         {
@@ -107,6 +109,44 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+      ],
+    },
+    {
+      id: "INTRO2",
+      alignment: "left",
+      hidden: false,
+      title: "Supporting UN Operations in Gaza and the Region",
+      image: "",
+      description:
+        "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." +
+        '<br /><br /><a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120464" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [35.08351, 32.23019],
+        zoom: 7.5,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.7,
+        bbox: [
+          [28.06034, 29.49946],
+          [42.2118, 34.85895],
+        ],
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "roadDraw",
+      onChapterEnter: [
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 1,
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        }
       ],
     },
     {
