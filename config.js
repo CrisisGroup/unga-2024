@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm19bca7800pm01pdhm6q2902",
+  style: "mapbox://styles/daltonwb/cm19f5kds00qd01pc4by5estr",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -230,11 +230,11 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><br /><br />",
       location: {
-        center: [96.20304, 20.94901],
-        zoom: 5,
+        center: [95.588857, 22.595168],
+        zoom: 3,
         pitch: 0,
         bearing: 0,
-        speed: 0.8,
+        speed: 1,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -387,7 +387,7 @@ var config = {
         "Renewing Humanitarian Exemptions in UN Counterterrorism Sanctions",
       image: "",
       description:
-        "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.jpg" /><br /><br />',
+        "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.png" /><br /><br />',
         location: {
           center: [-28.58292, 10.67017],
           zoom: 2,
