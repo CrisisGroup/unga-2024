@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm19f5kds00qd01pc4by5estr",
+  style: "mapbox://styles/daltonwb/cm19xb9z900u901pc07pw6vxw",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024–2025</h1><p class="hedp">World leaders participating in the UN General Assembly in September have no shortages of challenges to discuss. The war in Gaza has dominated UN diplomacy but the organisation is still grappling with conflicts in Sudan, Haiti and elsewhere. Leaders will also participate in a special Summit of the Future, with a focus on overhauling the multilateral system.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024–2025</h1><p class="hedp">World leaders participating in the UN General Assembly in September have no shortage of issues to discuss. The war in Gaza has dominated UN diplomacy, but the organisation is also still grappling with conflicts in Sudan, Haiti and elsewhere. Leaders will also participate in a special Summit of the Future, with a focus on overhauling the multilateral system.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -20,10 +20,10 @@ var config = {
       id: "INTRO",
       alignment: "left",
       hidden: false,
-      title: "Supporting UN Operations in Gaza and the Region",
+      title: "Supporting UN Operations in Gaza and the Middle East",
       image: "",
       description:
-        "The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the border crossings into Gaza, and humanitarians have only used the Kerem Shalom and Gate 96 border crossings since the end of July." +
+        "he UN Relief and Works Agency for Palestine Refugees in the Near East provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the crossings into Gaza, and humanitarian agencies have been able to use only two – Kerem Shalom and Gate 96 – since the end of July." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -115,10 +115,10 @@ var config = {
       id: "INTRO2",
       alignment: "left",
       hidden: false,
-      title: "Supporting UN Operations in Gaza and the Region",
+      title: "Supporting UN Operations in Gaza and the Middle East",
       image: "",
       description:
-        "Separately, diplomats are alarmed over the risk of escalation between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." +
+        "Separately, diplomats are alarmed about the risk of all-out war between Hizbollah and Israel in Lebanon. An escalation of fighting could put UNIFIL troops stationed along the Blue Line directly in the crossfire." +
         '<br /><br /><a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120464" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [35.08351, 32.23019],
@@ -176,7 +176,7 @@ var config = {
       title: "Marshalling International Diplomacy for Sudan",
       image: "",
       description:
-        "The Secretary-General's Personal Envoy Ramtane Lamamra convened the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) representatives for proximity talks on humanitarian issues in Geneva in July. This helped pave the way for an agreement with the SAF and RSF one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
+        "The Secretary-General's Personal Envoy Ramtane Lamamra convened representatives of the Sudanese army and Rapid Support Forces (RSF) for proximity talks on humanitarian issues in Geneva in July. This meeting helped pave the way for an agreement between the belligerents one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -204,6 +204,21 @@ var config = {
           layer: "adre_label",
           duration: 7000,
           opacity: 1,
+        },
+        {
+          layer: "adre_blur",
+          duration: 7000,
+          opacity: 1,
+        },
+        {
+          layer: "SUDAN-LABEL",
+          duration: 1000,
+          opacity: 1,
+        },
+        {
+          layer: "CHAD",
+          duration: 1000,
+          opacity: 1,
         }
       ],
       onChapterExit: [
@@ -216,6 +231,21 @@ var config = {
           layer: "adre_label",
           duration: 1000,
           opacity: 0,
+        },
+        {
+          layer: "adre_blur",
+          duration: 7000,
+          opacity: 0,
+        },
+        {
+          layer: "SUDAN-LABEL",
+          duration: 1000,
+          opacity: 0,
+        },
+        {
+          layer: "CHAD",
+          duration: 1000,
+          opacity: 0,
         }
       ],
     },
@@ -223,10 +253,10 @@ var config = {
       id: "MYANMAR",
       alignment: "center",
       hidden: false,
-      title: "Resetting UN engagement in Myanmar",
+      title: "Resetting UN Engagement in Myanmar",
       image: "",
       description:
-        "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should seize the moment to strengthen its ability to deliver aid to vulnerable populations in the country and bolster its diplomatic efforts in the region." +
+        "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should strengthen its ability to deliver aid to vulnerable populations and bolster its diplomatic efforts in the region." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><br /><br />",
       location: {
@@ -246,10 +276,10 @@ var config = {
       id: "HAITI",
       alignment: "left",
       hidden: false,
-      title: "Surging UN assistance to Haiti",
+      title: "Surging UN Assistance to Haiti",
       image: "",
       description:
-        "The most pressing question for Haiti revolves around the Multinational Security Support Mission (MSS)’ operational profile, funding and future. Once sufficiently equipped and staffed, police and mission personnel should endeavour to protect the capital’s critical infrastructure and step up operations against gang strongholds, with a view both to tempering the country’s  humanitarian crisis and providing a safe environment to hold elections." +
+        "The most pressing question for Haiti revolves around the Multinational Security Support Mission operational profile, funding and future. Once sufficiently equipped and staffed, the mission should endeavour to help police protect the capital’s critical infrastructure and step up operations against gang strongholds, with a view both to tempering the country’s humanitarian crisis and providing a safe environment for holding elections." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120476" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -272,6 +302,11 @@ var config = {
           layer: "tla-label",
           duration: 7000,
           opacity: 1,
+        },
+        {
+          layer: "tla-dot blur",
+          duration: 7000,
+          opacity: 1,
         }
       ],
       onChapterExit: [
@@ -284,6 +319,11 @@ var config = {
           layer: "tla-label",
           duration: 2000,
           opacity: 0,
+        },
+        {
+          layer: "tla-dot blur",
+          duration: 7000,
+          opacity: 1,
         }
       ],
     },
@@ -294,7 +334,7 @@ var config = {
       title: "Advancing Women's Protection and Participation in Colombia",
       image: "",
       description:
-        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the existing 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying historic exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
+        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying the historical exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><br /><br />",
       location: {
         center: [-74.09794, 4.69284],
@@ -316,7 +356,7 @@ var config = {
       title: "Confronting the future of UN peacekeeping in Africa",
       image: "",
       description:
-        "The UN is in the process of shrinking its peacekeeping presence in Africa, which has been the centre of attention for its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including the role Blue Helmet missions might play or how operational and financial support could be provided to African-led deployments." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations, and regional security operations." +
+        "The UN is downsizing its peacekeeping missions in Africa, where it has run most of its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including what role blue helmet missions might play and how operational and financial support could be provided to African-led deployments." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations and regional security operations." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -351,7 +391,7 @@ var config = {
       title: "Reinforcing the UN Peacebuilding Architecture",
       image: "",
       description:
-        "The Peacebuilding Fund, one part of the UN's peacebuilding architecture, has a good reputation for providing limited but speedy financing for local peace talks and bolstering countries’ justice systems. Although the Fund sometimes backs projects in places where the UN already has peace operations, it also funds UN efforts in states – such as Burkina Faso and Papua New Guinea – where the organisation has no political presence." + "<div class='spacer'></div>" + "This map shows countries receiving UN peacebuilding fund allocations in 2023 (source: A/78/779)" +
+        "The Peacebuilding Fund, one part of the UN's peacebuilding architecture, has a good reputation for providing limited but speedy financing for local peace talks and bolstering countries’ justice systems. Although the Fund sometimes backs projects in places where the UN already has peace operations, it also funds UN efforts in states – such as Burkina Faso and Papua New Guinea – where the organisation has no political presence." + "<div class='spacer'></div>" + "The map shows countries receiving UN peacebuilding fund allocations in 2023 (source: A/78/779)." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -384,10 +424,10 @@ var config = {
       alignment: "center",
       hidden: false,
       title:
-        "Renewing Humanitarian Exemptions in UN Counterterrorism Sanctions",
+        "Renewing Humanitarian Exemptions in UN Counter-terrorism Sanctions",
       image: "",
       description:
-        "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.png" /><br /><br />',
+        "The Security Council will vote in December on extending a humanitarian exemption for sanctions against al-Qaeda and the Islamic State. Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing longstanding obstacles to aid delivery to ameliorate several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major humanitarian operations that together serve more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.png" /><br /><br />',
         location: {
           center: [-28.58292, 10.67017],
           zoom: 2,
@@ -427,10 +467,10 @@ var config = {
       id: "WASHINGTON",
       alignment: "left",
       hidden: false,
-      title: "Preparing for the next U.S. Administration",
+      title: "Preparing for the Next U.S. Administration",
       image: "",
       description:
-        "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a new raft of problems, depending on the outcome.  the ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. admin-istrations reassess their global posture, their investment in international organisa-tions is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
+        "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a raft of new problems, depending on the outcome. The ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. administrations reassess their global posture, their investment in international organisations is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-77.03653, 38.89763],
         zoom: 16.75,
@@ -465,10 +505,10 @@ var config = {
       id: "UNSG",
       alignment: "left",
       hidden: false,
-      title: "Choosing the next Secretary-General",
+      title: "Choosing the Next Secretary-General",
       image: "",
       description:
-        "The race to replace António Guterres as UN secretary-general will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake out their claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "The race to replace António Guterres as UN Secretary-General will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-73.96756, 40.75006],
         zoom: 16,
