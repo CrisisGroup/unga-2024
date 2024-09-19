@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm173gemf00hn01pd3qbscwuf",
+  style: "mapbox://styles/daltonwb/cm19akzdi01ec01p41w3g5pfm",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -162,15 +162,37 @@ var config = {
       location: {
         center: [22.22724, 13.4534],
         zoom: 16.5,
-        pitch: 50,
+        pitch: 20,
         bearing: -9,
         speed: 0.6,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "rotateData",
-      onChapterEnter: [],
-      onChapterExit: [],
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "adre_dot",
+          duration: 4000,
+          opacity: 1,
+        },
+        {
+          layer: "adre_label",
+          duration: 4000,
+          opacity: 1,
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: "adre_dot",
+          duration: 1000,
+          opacity: 0,
+        },
+        {
+          layer: "adre_label",
+          duration: 1000,
+          opacity: 0,
+        }
+      ],
     },
     {
       id: "MYANMAR",
@@ -217,14 +239,24 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "haiti-TLA",
-          duration: 2000,
+          layer: "tla-dot",
+          duration: 5000,
+          opacity: 1,
+        },
+        {
+          layer: "tla-label",
+          duration: 5000,
           opacity: 1,
         }
       ],
       onChapterExit: [
         {
-          layer: "haiti-TLA",
+          layer: "tla-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tla-label",
           duration: 2000,
           opacity: 0,
         }
@@ -272,8 +304,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "unga-missions",
+          duration: 2000,
+          opacity: 1,
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: "unga-missions",
+          duration: 2000,
+          opacity: 0,
+        }
+      ],
     },
     {
       id: "PEACE2",
@@ -339,9 +383,20 @@ var config = {
           layer: "WHITE_HOUSE",
           duration: 2000,
           opacity: 0,
+        },
+        {
+          layer: "unga-missions",
+          duration: 3000,
+          opacity: 1,
         }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "unga-missions",
+          duration: 4000,
+          opacity: 0,
+        }
+      ],
     },
     {
       id: "WASHINGTON",
