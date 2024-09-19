@@ -105,41 +105,23 @@
 		</ul>
 	</div>
 
-	<div id='phplegend' class='legend blackshadow left-legend'>
+	<div id='afrlegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div><span style='background-color: #a4353b; border: solid 1px #fff;'></span>The People’s Republic of
-					China’s (PRC) 9-Dash Line
+				<div><span style='background-color: #0f83bd; border: solid 1px #fff;'></span>UN peacekeeping operations
+				</div>
+				<div><span style='background-color: #12b51a; border: solid 1px #fff;'></span>AU peace support operations
+				</div>
+				<div><span style='background-color: #ebe052; border: solid 1px #fff;'></span>Sub-regional missions
 				</div>
 			</li>
 		</ul>
-		<br />
 	</div>
 
-	<div id='bosnia-legend' class='legend blackshadow left-legend'>
-		<ul class='legend-ul'>
-			<li>
-				<div><span style='background-color: #a4343A; border: solid 1px #fff;'></span>Republika Srpska
-				</div>
-			</li>
-		</ul>
-		<br />
-	</div>
-
-	<div id='haitilegend-a' class='legend blackshadow left-legend'>
+	<div id='haiti-legend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
 				<div>The Haitian government has spent more than $2 million dollars securing Toussaint Louverture International Airport in Port-au-Prince. Since April 2024, security forces have set up base camps and razed hundreds of buildings, including homes around the airport.
-				</div>
-			</li>
-		</ul>
-		<br />
-	</div>
-
-	<div id='haitilegend' class='legend blackshadow left-legend'>
-		<ul class='legend-ul'>
-			<li>
-				<div>A satellite image taken in May 2024 by Planet Labs PBC shows the aftermath of a bulldozing operation north of the main airport runway.
 				</div>
 			</li>
 		</ul>
@@ -864,26 +846,15 @@
 					} else
 						$("#isrlegend").hide("fast");
 
-					if (chapterid == "PHP") {
-						$("#phplegend").show("slow");
+					if (chapterid == "AFRICA") {
+						$("#afrlegend").show("slow");
 					} else
-						$("#phplegend").hide("fast");
+						$("#afrlegend").hide("fast");
 
-						if (chapterid == "BOS") {
-						$("#bosnia-legend").show("slow");
+						if (chapterid == "HAITI") {
+						$("#haiti-legend").show("slow");
 					} else
-						$("#bosnia-legend").hide("fast");
-						
-					if (chapterid == "HAITI-1") {
-						$("#haitilegend-a").show("slow");
-					} else
-						$("#haitilegend-a").hide("fast");
-
-					if (chapterid == "HAITI-2") {
-						$("#haitilegend").show("slow");
-					} else
-						$("#haitilegend").hide("fast");
-
+						$("#haiti-legend").hide("fast");
 
 					response.element.classList.add('active');
 

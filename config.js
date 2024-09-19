@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024–2025</h1><p class="hedp">Leaders will meet at the UN General Assembly at a bleak moment. The war between Israel and Hamas has cast a long shadow over the world organisation, and many of its members worry that it is failing to fulfil its core mandate of preserving peace and security.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2024–2025</h1><p class="hedp">World leaders participating in the UN General Assembly in September have no shortages of challenges to discuss. The war in Gaza has dominated UN diplomacy but the organisation is still grappling with conflicts in Sudan, Haiti and elsewhere. Leaders will also participate in a special Summit of the Future, with a focus on overhauling the multilateral system.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -228,7 +228,7 @@ var config = {
       description:
         "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should seize the moment to strengthen its ability to deliver aid to vulnerable populations in the country and bolster its diplomatic efforts in the region." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><br /><br />",
       location: {
         center: [96.20304, 20.94901],
         zoom: 5,
