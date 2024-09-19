@@ -9,6 +9,7 @@ p {
   color: #fff;
   border-radius: 5px;
   font-size: 1.6em;
+  margin-top: 0;
 }
 
 .spacer {
@@ -258,7 +259,6 @@ h3 {
   font-family: "franklin-gothic-urw", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 1px;
   color: #6e7476;
   margin-bottom: 0;
@@ -376,11 +376,8 @@ h5 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  /* Lighter gray for highlighting */
   color: #88acbe;
   display: inline-block;
-  /* Ensures the background only covers the text */
-  padding: 5px 8px 5px 8px;
 }
 
 @media (max-width: 750px) {
