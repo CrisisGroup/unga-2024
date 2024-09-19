@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm19akzdi01ec01p41w3g5pfm",
+  style: "mapbox://styles/daltonwb/cm19b6m1j00pm01pc3jty2aou",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -139,12 +139,32 @@ var config = {
           layer: "road-draw-line",
           duration: 2000,
           opacity: 1,
+        },
+        {
+          layer: "ISRAEL",
+          duration: 3000,
+          opacity: 1,
+        },
+        {
+          layer: "LEBANON",
+          duration: 3000,
+          opacity: 1,
         }
       ],
       onChapterExit: [
         {
           layer: "road-draw-line",
           duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ISRAEL",
+          duration: 3000,
+          opacity: 0,
+        },
+        {
+          layer: "LEBANON",
+          duration: 3000,
           opacity: 0,
         }
       ],
@@ -171,13 +191,18 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
           layer: "adre_dot",
-          duration: 4000,
+          duration: 7000,
           opacity: 1,
         },
         {
           layer: "adre_label",
-          duration: 4000,
+          duration: 7000,
           opacity: 1,
         }
       ],
@@ -240,12 +265,12 @@ var config = {
       onChapterEnter: [
         {
           layer: "tla-dot",
-          duration: 5000,
+          duration: 7000,
           opacity: 1,
         },
         {
           layer: "tla-label",
-          duration: 5000,
+          duration: 7000,
           opacity: 1,
         }
       ],
