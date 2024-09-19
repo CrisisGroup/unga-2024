@@ -235,11 +235,10 @@ var config = {
       alignment: "center",
       hidden: false,
       title: "Advancing Women's Protection and Participation in Colombia",
-      image: "images/colombia.jpg",
+      image: "",
       description:
-        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the existing 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying historic exclusion of marginalised groups and achieving equitable peace." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>',
+        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the existing 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying historic exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><br /><br />",
       location: {
         center: [-74.09794, 4.69284],
         zoom: 6,
@@ -264,10 +263,10 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [13.43076, 13.66816],
-        zoom: 5,
-        pitch: 32.5,
-        bearing: 30,
+        center: [12.27552, 10.15932],
+        zoom: 3,
+        pitch: 0,
+        bearing: 0,
         speed: 0.4,
       },
       mapAnimation: "flyTo",
@@ -317,9 +316,9 @@ var config = {
       hidden: false,
       title:
         "Renewing Humanitarian Exemptions in UN Counterterrorism Sanctions",
-      image: "images/terror_aid.jpg",
+      image: "",
       description:
-        "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need.",
+        "The Security Council will vote this December on extending a humanitarian exemption to for sanctions against al-Qaeda and the Islamic State (IS). Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing long-standing obstacles to aid deliveries in several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major ongoing humanitarian operations and more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.jpg" /><br /><br />',
         location: {
           center: [-28.58292, 10.67017],
           zoom: 2,
@@ -351,7 +350,7 @@ var config = {
       title: "Preparing for the next U.S. Administration",
       image: "",
       description:
-        "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a new raft of problems, depending on the outcome.  the ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. admin-istrations reassess their global posture, their investment in international organisa-tions is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president.",
+        "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a new raft of problems, depending on the outcome.  the ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. admin-istrations reassess their global posture, their investment in international organisa-tions is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-77.03653, 38.89763],
         zoom: 16.75,
@@ -389,7 +388,7 @@ var config = {
       title: "Choosing the next Secretary-General",
       image: "",
       description:
-        "The race to replace António Guterres as UN secretary-general will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake out their claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade.",
+        "The race to replace António Guterres as UN secretary-general will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake out their claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-73.96756, 40.75006],
         zoom: 16,
