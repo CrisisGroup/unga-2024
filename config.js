@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm19xb9z900u901pc07pw6vxw",
+  style: "mapbox://styles/daltonwb/cm19yhja000ua01pc65ycfqjx",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -234,7 +234,7 @@ var config = {
         },
         {
           layer: "adre_blur",
-          duration: 7000,
+          duration: 2000,
           opacity: 0,
         },
         {
@@ -323,7 +323,7 @@ var config = {
         {
           layer: "tla-dot blur",
           duration: 7000,
-          opacity: 1,
+          opacity: 0,
         }
       ],
     },
@@ -341,7 +341,7 @@ var config = {
         zoom: 6,
         pitch: 0,
         bearing: 0,
-        speed: 0.4,
+        speed: 1,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
