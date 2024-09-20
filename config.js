@@ -334,7 +334,7 @@ var config = {
       title: "Advancing Women's Protection and Participation in Colombia",
       image: "",
       description:
-        "The UN has an opportunity to step in to bolster measures to protect women, drawing on its mandate to support the 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying the historical exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
+        "The UN has an opportunity to step in to boost measures to protect women, drawing on its mandate to support the 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying the historical exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><br /><br />",
       location: {
         center: [-74.09794, 4.69284],
@@ -424,7 +424,7 @@ var config = {
       alignment: "center",
       hidden: false,
       title:
-        "Renewing Humanitarian Exemptions in UN Counter-terrorism Sanctions",
+        "Renewing Humanitarian Exemptions for UN Counter-terrorism Sanctions",
       image: "",
       description:
         "The Security Council will vote in December on extending a humanitarian exemption for sanctions against al-Qaeda and the Islamic State. Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing longstanding obstacles to aid delivery to ameliorate several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major humanitarian operations that together serve more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.png" /><br /><br />',
