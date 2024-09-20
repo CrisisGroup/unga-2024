@@ -542,6 +542,7 @@ p.top-narrative {
   line-height: 24px;
   letter-spacing: .02em;
   display: block;
+  margin-top: 10px;
 }
 
 #END-02 .light {
@@ -717,7 +718,7 @@ ul.legend-ul li {
 .legend div span {
   display: inline-block;
   height: 10px;
-  width: 30px;
+  width: 10px;
   margin-right: 5px;
 }
 

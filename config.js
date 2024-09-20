@@ -23,7 +23,7 @@ var config = {
       title: "Supporting UN Operations in Gaza and the Middle East",
       image: "",
       description:
-        "he UN Relief and Works Agency for Palestine Refugees in the Near East provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the crossings into Gaza, and humanitarian agencies have been able to use only two – Kerem Shalom and Gate 96 – since the end of July." +
+        "The UN Relief and Works Agency for Palestine Refugees in the Near East provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the crossings into Gaza, and humanitarian agencies have been able to use only two – Kerem Shalom and Gate 96 – since the end of July." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -176,7 +176,7 @@ var config = {
       title: "Marshalling International Diplomacy for Sudan",
       image: "",
       description:
-        "The Secretary-General's Personal Envoy Ramtane Lamamra convened representatives of the Sudanese army and Rapid Support Forces (RSF) for proximity talks on humanitarian issues in Geneva in July. This meeting helped pave the way for an agreement between the belligerents one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
+        "The Secretary-General’s Personal Envoy Ramtane Lamamra convened representatives of the Sudanese army and Rapid Support Forces (RSF) for proximity talks on humanitarian issues in Geneva in July. This meeting helped pave the way for an agreement between the belligerents one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -258,7 +258,7 @@ var config = {
       description:
         "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should strengthen its ability to deliver aid to vulnerable populations and bolster its diplomatic efforts in the region." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><br /><br />",
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta'ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar's northern Shan State. July 2024 STR / AFP.</p>",
       location: {
         center: [95.588857, 22.595168],
         zoom: 3,
@@ -331,11 +331,11 @@ var config = {
       id: "COLOMBIA",
       alignment: "center",
       hidden: false,
-      title: "Advancing Women's Protection and Participation in Colombia",
+      title: "Advancing Women’s Protection and Participation in Colombia",
       image: "",
       description:
         "The UN has an opportunity to step in to boost measures to protect women, drawing on its mandate to support the 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying the historical exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><br /><br />",
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
         center: [-74.09794, 4.69284],
         zoom: 6,
@@ -353,7 +353,7 @@ var config = {
       id: "AFRICA",
       alignment: "left",
       hidden: false,
-      title: "Confronting the future of UN peacekeeping in Africa",
+      title: "Confronting the Future of UN Peacekeeping in Africa",
       image: "",
       description:
         "The UN is downsizing its peacekeeping missions in Africa, where it has run most of its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including what role blue helmet missions might play and how operational and financial support could be provided to African-led deployments." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations and regional security operations." +
@@ -427,7 +427,7 @@ var config = {
         "Renewing Humanitarian Exemptions for UN Counter-terrorism Sanctions",
       image: "",
       description:
-        "The Security Council will vote in December on extending a humanitarian exemption for sanctions against al-Qaeda and the Islamic State. Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing longstanding obstacles to aid delivery to ameliorate several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major humanitarian operations that together serve more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/terror_aid.png" /><br /><br />',
+        "The Security Council will vote in December on extending a humanitarian exemption for sanctions against al-Qaeda and the Islamic State. Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing longstanding obstacles to aid delivery to ameliorate several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major humanitarian operations that together serve more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
         location: {
           center: [-28.58292, 10.67017],
           zoom: 2,
