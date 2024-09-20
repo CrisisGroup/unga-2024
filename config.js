@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm1ajgrhu02ak01qo2z3o2dqz",
+  style: "mapbox://styles/daltonwb/cm1ajxjy702ao01qo7c4wawoc",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -346,7 +346,13 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          layer: "unga-missions",
+          duration: 2000,
+          opacity: 0,
+        }
+      ],
       onChapterExit: [],
     },
     {
